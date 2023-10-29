@@ -24,8 +24,8 @@ export default function Header({}: Props) {
         }}
         className='flex flex-row items-center'>
             {/* social icon */}
-            <SocialIcon label="my LinkedIn Profile" url="https://www.linkedin.com/in/cedriccompagnon/" bgColor='transparent'/>
-            <SocialIcon label="my GitHub Profile" url="https://github.com/Cedcomps?tab=repositories" bgColor='transparent'/>
+            <SocialIcon label="my LinkedIn Profile" url="https://www.linkedin.com/in/cedriccompagnon/" target="_blank" rel="noopener noreferrer" bgColor='transparent' />
+            <SocialIcon label="my GitHub Profile" url="https://github.com/Cedcomps?tab=repositories" target="_blank" rel="noopener noreferrer" bgColor='transparent'/>
         </motion.div>
         
         <motion.div
@@ -42,8 +42,8 @@ export default function Header({}: Props) {
         transition={{
             duration: 1.5,
         }}>
-        <SocialIcon label="my email" className='cursor-pointer' network='email' bgColor='transparent'/>
-        <p className='uppercase hidden md:inline-flex test-sm cursor-pointer'>Get in touch</p>
+        <SocialIcon label="my email" className='cursor-pointer' network='email' bgColor='transparent' href="#contact" target="_self" rel="noopener noreferrer" />
+        <a className='uppercase hidden md:inline-flex test-sm cursor-pointer' href="#contact" target="_self" rel="noopener noreferrer">Get in touch</a>
         </motion.div>
     </header>
   )

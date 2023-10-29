@@ -12,7 +12,7 @@ export default function Skills({}: Props) {
             Skills
         </h3>
         <h3 className='absolute top-36 uppercase tracking-["px] text-gray-500 text-sm'>
-            Hover over a skill for currency profiency
+            Hover a skill to find out its value 
         </h3>
         <div className='grid grid-cols-4 gap-5'>
         <Skill />
