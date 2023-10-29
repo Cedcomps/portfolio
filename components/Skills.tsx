@@ -8,11 +8,8 @@ type Props = {}
 export default function Skills({}: Props) {
   return (
     <motion.div className='h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+        <h3 className='md:my-8 absolute top-14 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
             Skills
-        </h3>
-        <h3 className='absolute top-36 uppercase tracking-["px] text-gray-500 text-sm'>
-            Hover a skill to find out its value 
         </h3>
         <div className='grid grid-cols-4 gap-5'>
         <Skill />
