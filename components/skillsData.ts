@@ -8,12 +8,12 @@ interface Skill {
   
   const SkillsData: Skill[] = [
     {
-      title: "Google Cybersecurity Certificate",
+      title: "PSM1",
       imageUrl: "https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9553-f5e84eb359ba/image.png",
       progression: "97%",
     },
     {
-        title: "PSM1",
+        title: "Google Cybersecurity Certificate",
         imageUrl: "https://images.credly.com/size/340x340/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png",
         progression: "93%",
     },
@@ -38,15 +38,15 @@ interface Skill {
           progression: "90%",
         },
         {
-            title: "Canva",
-            imageUrl: "https://icon.icepanel.io/Technology/svg/Canva.svg",
-            progression: "100%",
+            title: "JavaScript",
+            imageUrl: "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+            progression: "60%",
         },   
-        {
-            title: "Visual Studio Code",
-            imageUrl: "https://icon.icepanel.io/Technology/svg/Visual-Studio-Code-%28VS-Code%29.svg",
-            progression: "30%",
-        },
+        // {
+        //     title: "Visual Studio Code",
+        //     imageUrl: "https://icon.icepanel.io/Technology/svg/Visual-Studio-Code-%28VS-Code%29.svg",
+        //     progression: "30%",
+        // },
         {
             title: "CSS3",
             imageUrl: "https://icon.icepanel.io/Technology/svg/CSS3.svg",
@@ -95,7 +95,7 @@ interface Skill {
         {
             title: "PHP",
             imageUrl: "https://icon.icepanel.io/Technology/svg/PHP.svg",
-            progression: "90%",
+            progression: "70%",
         },
         {
             title: "PuTTY",
@@ -107,11 +107,11 @@ interface Skill {
             imageUrl: "https://icon.icepanel.io/Technology/svg/Figma.svg",
             progression: "30%",
         },
-        {
-            title: "PHP",
-            imageUrl: "https://icon.icepanel.io/Technology/svg/PHP.svg",
-            progression: "90%",
-        },
+        // {
+        //     title: "PHP",
+        //     imageUrl: "https://icon.icepanel.io/Technology/svg/PHP.svg",
+        //     progression: "90%",
+        // },
     // Ajoutez d'autres projets de la même manière
   ];
   
