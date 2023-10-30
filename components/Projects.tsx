@@ -24,7 +24,7 @@ export default function Projects({}: Props) {
               transition ={{ duration: 1.2}}
               whileInView={{ opacity:1, y:0}}
               viewport={{ once:true}}
-            src="https://fact24.f24.com/wp-content/uploads/2020/08/Fact24-ENS_Start-Screen.png-1024x617.png" alt={`Project ${i + 1}`}
+            src={project.imageUrl} alt={`Project ${i + 1}`}
             className='h-40'/>
             <div>
               <h4 className='text-4xl font-semibold text-center'>
@@ -32,6 +32,16 @@ export default function Projects({}: Props) {
                 </span> {project.title}
               </h4>
             <br></br>
+            <div className='flex flex-row items-center justify-center space-x-2 my-2'>
+              {project.techs.map((tech, index) => (
+                  <img
+                  key={index}
+                  className='flex scale-75 h-10 w-10 '
+                  src={tech} 
+                  alt={tech}
+                  />
+                  ))}
+            </div>
               <p className='text-lg text-center md:text-left'>{project.description}</p>
             </div>
           </div>
