@@ -27,22 +27,24 @@ export default function Projects({}: Props) {
             src={project.imageUrl} alt={`Project ${i + 1}`}
             className='h-40'/>
             <div>
-              <h4 className='text-4xl font-semibold text-center'>
-                <span className='underline decoration-[#8b9d63]/50'>Case Study {i + 1} of {projectsData.length} : 
-                </span> {project.title}
+              <h4 className='text-2xl md:text-4xl font-semibold text-center'>
+                <span className='text-sm underline decoration-[#8b9d63]/50'>{i + 1} of {projectsData.length}  
+                <br></br>
+                </span > {project.title}
               </h4>
-            <br></br>
             <div className='flex flex-row items-center justify-center space-x-2 my-2'>
               {project.techs.map((tech, index) => (
-                  <img
-                  key={index}
-                  className='flex scale-75 h-10 w-10 '
-                  src={tech} 
-                  alt={tech}
-                  />
-                  ))}
+                <img
+                key={index}
+                className='flex scale-75 h-10 w-10 '
+                src={tech} 
+                alt={tech}
+                />
+                ))}
             </div>
-              <p className='text-lg text-center md:text-left'>{project.description}</p>
+              <p className='text-sm md:text-lg text-center md:text-left'>{project.description}</p>
+                <br></br>
+              <a className='text-md underline decoration-[#8b9d63]/50 text-center uppercase md:text-left animate-pulse' href={project.projectUrl} target="_blank">&#10132; See the Project</a>
             </div>
           </div>
         ))}

@@ -20,7 +20,7 @@ interface Skill {
     {
         title: "SQL",
         imageUrl: "https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/Azure-SQL-Database-Monitoring.component.complex-narrative-xl.ts=1692275024860.png/content/adobe-cms/fr/fr/products/instana/supported-technologies/azure-sql-database-monitoring/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/complex_narrative/logoimage",
-        progression: "65%",
+        progression: "70%",
     },
     {
         title: "Python",
@@ -35,12 +35,12 @@ interface Skill {
         {
           title: "Jira",
           imageUrl: "https://icon.icepanel.io/Technology/svg/Jira.svg",
-          progression: "90%",
+          progression: "100%",
         },
         {
             title: "JavaScript",
             imageUrl: "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
-            progression: "60%",
+            progression: "50%",
         },   
         // {
         //     title: "Visual Studio Code",
@@ -60,37 +60,37 @@ interface Skill {
         {
             title: "Visual Studio Code",
             imageUrl: "https://icon.icepanel.io/Technology/svg/Visual-Studio-Code-%28VS-Code%29.svg",
-            progression: "30%",
+            progression: "80%",
         },
         {
             title: "Docker ",
             imageUrl: "https://icon.icepanel.io/Technology/svg/Docker.svg",
-            progression: "90%",
+            progression: "60%",
         },
         {
             title: "FileZilla",
             imageUrl: "https://icon.icepanel.io/Technology/svg/FileZilla.svg",
-            progression: "100%",
+            progression: "90%",
         },   
         {
             title: "GitHub",
             imageUrl: "https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png",
-            progression: "30%",
+            progression: "70%",
         },
         {
             title: "HTML5",
             imageUrl: "https://icon.icepanel.io/Technology/svg/HTML5.svg",
-            progression: "90%",
+            progression: "100%",
         },        
         {
             title: "Linux",
             imageUrl: "https://icon.icepanel.io/Technology/png-shadow-512/Linux.png",
-            progression: "100%",
+            progression: "50%",
         },   
         {
             title: "Next.js",
             imageUrl: "https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png",
-            progression: "30%",
+            progression: "20%",
         },
         {
             title: "PHP",
@@ -105,7 +105,7 @@ interface Skill {
         {
             title: "Figma",
             imageUrl: "https://icon.icepanel.io/Technology/svg/Figma.svg",
-            progression: "30%",
+            progression: "80%",
         },
         // {
         //     title: "PHP",

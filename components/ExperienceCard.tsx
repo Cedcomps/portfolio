@@ -26,15 +26,6 @@ export default function ExperienceCard({ experience }: Props) {
         <p className='font-bold text-2xl mt-1'>{experience.company}</p>
         <p className='font-thin text-xl'>{experience.purpose}</p>
         <div className='flex space-x-2 my-2'>
-          {/* Ici, vous pouvez mapper les technologies utilisées */}
-          {experience.techs.map((tech, index) => (
-            <img
-              key={index}
-              className='scale-75 h-10 w-10 '
-              src={tech} // Assurez-vous que les images des technologies sont correctement définies dans les données d'expérience
-              alt={tech}
-            />
-          ))}
         </div>
         <p className='uppercase py-5 text-gray-300'>{experience.date}</p>
         <ul className='list-disc space-y-4 ml-5 text-md'>
