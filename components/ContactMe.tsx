@@ -32,7 +32,7 @@ export default function ContactMe({}: Props) {
   <div>
     <div className='flex flex-col space-y-10'>
       <h4 className='text-2xl md:text-4xl font-semibold text-center'>
-        <span className='text-2xl underline decoration-[#8b9d63]/50'>Let's have a {" "}talk</span>
+        <span className='text-2xl underline decoration-[#8b9d63]/50'>Let&apos;s have a talk</span>
       </h4>
 
       <div className='space-y-10'>
