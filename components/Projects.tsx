@@ -11,11 +11,11 @@ export default function Projects({}: Props) {
       initial={{ opacity:0}}
       transition ={{ duration:1.5}}
       whileInView={{ opacity:1}}
-    className='h-screen flex relative flex-col overflow-hidden text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
+    className='h-screen flex relative flex-col overflow-hidden text-center md:text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
       <h3 className='md:my-8 absolute top-14 md:top-24  uppercase tracking-[20px] text-gray-500 text-2xl'>Projects</h3>
       <div className='scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#8b9d63]/80 relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
         {projectsData.map((project, i) => (
-          <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+          <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen w-full md:w-screen  p-8 md:p-20 h-screen'>
             <motion.img 
               initial={{
                 y: -300,
@@ -27,7 +27,7 @@ export default function Projects({}: Props) {
             src={project.imageUrl} alt={`Project ${i + 1}`}
             className='h-40'/>
             <div>
-              <h4 className='text-2xl md:text-4xl font-semibold text-center'>
+              <h4 className='text-xl md:text-2xl font-semibold text-center'>
                 <span className='text-sm underline decoration-[#8b9d63]/50'>{i + 1} of {projectsData.length}  
                 <br></br>
                 </span > {project.title}
@@ -36,7 +36,7 @@ export default function Projects({}: Props) {
               {project.techs.map((tech, index) => (
                 <img
                 key={index}
-                className='flex scale-75 h-10 w-10 '
+                className='flex scale-75 h-8 w-8 md:h-10 md:w-10'
                 src={tech} 
                 alt={tech}
                 />
@@ -44,13 +44,13 @@ export default function Projects({}: Props) {
             </div>
               <p className='text-sm md:text-lg text-center md:text-left'>{project.description}</p>
                 <br></br>
-              <a className='text-md underline decoration-[#8b9d63]/50 text-center uppercase md:text-left animate-pulse' href={project.projectUrl} target="_blank">&#10132; See the Project</a>
+              <a className='text-sm md:text-lg underline decoration-[#8b9d63]/50 text-center uppercase md:text-left animate-pulse' href={project.projectUrl} target="_blank">&#10132; See the Project</a>
             </div>
           </div>
         ))}
       </div>
 
-    <div className='w-full absolute top-[40%] bg-[#8b9d63]/30 left-0 h-[500px] -skew-y-12'></div>
+    <div className='w-full md:w-screen absolute top-[40%] bg-[#8b9d63]/30 left-0 h-[500px] md:h-[600px] -skew-y-12'></div>
     </motion.div>
   )
 }
