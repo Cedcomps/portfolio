@@ -27,7 +27,7 @@ export default function About({}: Props) {
             <br></br><br></br>
             I help companies identify a relevant problem in order to develop the best solution, and I help my community increase their product skills through mentoring, training.
             <br></br><br></br>
-            🔒 Cybersecurity is a field I&apos;m passionate about and I&apos;m developing projects on the side. </p>
+            📊 Data analysis is a field I&apos;m passionate about and I&apos;m developing projects on the side. </p>
         </div>
     </motion.div>
   )
