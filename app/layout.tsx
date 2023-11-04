@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Cédric Compagnon 👔 Product Manager | Cybersecurity',
-  description: 'Cédric Compagnon help companies identify a relevant problem in order to develop the best solution.',
+  title: 'Cédric Compagnon 👔 Product Manager | B2B SaaS',
+  description: 'Cédric Compagnon helps companies identify a relevant problem in order to develop the best solution.',
 }
 
 export default function RootLayout({

@@ -27,9 +27,9 @@ interface Experience {
     },
     {
       title: "Product Manager",
-      company: "AlarmTILT",
+      company: "F24",
       purpose: "Alerting and crisis management solution ISO/IEC 27001",
-      imageSrc: "https://play-lh.googleusercontent.com/kZLDb8BtSTO8AdIVCaStqpdpMZkqYDSBi0uKWaXPtgsans_GwGSR6_3UWJMumYL0W8Q",
+      imageSrc: "https://play-lh.googleusercontent.com/YPY6Sz5u4ks6Z9pc8kB4I8YnE73D3JbJdd-gM6ZDjDKQmlErAtefK6sLtYbWQHn00Ig",
       date: "2018 - 2019",
       accomplishments: ["Prioritized over 900 User Stories with stakeholders, by balancing between short-term deliverables and long-term investments., aligning the business with the market needs.","Presented recurring product demos as part of our go-to-market strategy, increasing sales by 15%, by reinforcing our product launch efforts with engineering, marketing and the sales team.","Streamlined the providers usage in our backend, reducing operations costs of 40%, by allocating more routes for cheaper and accurate providers.","Implemented RGPD-compliant data protection procedures in the product, by working closely with the engineering and legal teams to ensure the security and integrity of sensitive data."],
     },
