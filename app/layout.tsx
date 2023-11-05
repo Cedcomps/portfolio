@@ -8,7 +8,6 @@ export const metadata: Metadata = {
   title: 'Cédric Compagnon 👔 Product Manager | B2B SaaS',
   description: 'Cédric Compagnon helps companies identify a relevant problem in order to develop the best solution.',
 }
-
 export default function RootLayout({
   children,
 }: {
