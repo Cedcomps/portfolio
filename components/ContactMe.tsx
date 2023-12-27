@@ -43,7 +43,7 @@ export default function ContactMe({}: Props) {
 
         <div className='flex items-center justify-center space-x-2 md:space-x-5'>
           <EnvelopeIcon className='text-[#8b9d63] h-5 w-5 md:h-7 md:w-7 animate-pulse' />
-          <Link href='mailto:cedric.productmanager@gmail.com?subject=Hi from your website' className='text-lg md:text-2xl'>cedric.productmanager@gmail.com</Link>
+          <Link href='mailto:hey@cedric-compagnon.com?subject=Hi from your website' className='text-lg md:text-2xl'>hey@cedric-compagnon.com</Link>
         </div>
       </div>
       {/* Your form code can be inserted here if needed */}
