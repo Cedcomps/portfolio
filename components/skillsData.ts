@@ -28,9 +28,9 @@ interface Skill {
         progression: "30%",
       },   
       {
-          title: "Azure",
-          imageUrl: "https://icon.icepanel.io/Technology/svg/Azure.svg",
-          progression: "30%",
+          title: "React",
+          imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+          progression: "50%",
         },
         {
           title: "Jira",
@@ -48,8 +48,8 @@ interface Skill {
         //     progression: "30%",
         // },
         {
-            title: "CSS3",
-            imageUrl: "https://icon.icepanel.io/Technology/svg/CSS3.svg",
+            title: "Next.js",
+            imageUrl: "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
             progression: "90%",
         },
         {

@@ -10,7 +10,7 @@ type Props = {}
 
 export default function Hero({}: Props) {
     const [text, count] = useTypewriter({
-        words: ['Hi, I\'m Cédric 👔', 'I shape Products', 'I love Data analysis', 'CrossFit and Sartorialism'],
+        words: ['Hi, I\'m Cédric 👔', 'I shape Products', 'I develop with Next.js', 'I create communication bridge'],
         loop: true,
         delaySpeed: 2000,
           })
@@ -24,7 +24,7 @@ export default function Hero({}: Props) {
       />
       <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[.35em]'>
-          Product Manager
+          Product Manager, Technical Product Owner
         </h2>
         <h1 className='text-3xl lg:text-4xl xl:text-5xl font-semibold px-4 lg:px-10'>
           <span>{text}</span>

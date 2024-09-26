@@ -20,7 +20,7 @@ export default function ContactMe({}: Props) {
         formState: { errors },
       } = useForm<Inputs>()
     const onSubmit: SubmitHandler<Inputs> = (formData) => {
-        window.location.href = "mailto:cedric.productmanager@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}"
+        window.location.href = "mailto:hey@cedric-compagnon.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}"
     }
     
   return (
@@ -32,17 +32,17 @@ export default function ContactMe({}: Props) {
   <div>
     <div className='flex flex-col space-y-10'>
       <h4 className='text-2xl md:text-4xl font-semibold text-center'>
-        <span className='text-2xl underline decoration-[#8b9d63]/50'>Let&apos;s have a talk</span>
+        <span className='text-2xl underline decoration-[#ffbd59]/50'>Let&apos;s have a talk</span>
       </h4>
 
       <div className='space-y-10'>
         <div className='flex items-center justify-center space-x-2 md:space-x-5'>
-          <PhoneIcon className='text-[#8b9d63] h-5 w-5 md:h-7 md:w-7 animate-pulse' />
+          <PhoneIcon className='text-[#ffbd59] h-5 w-5 md:h-7 md:w-7 animate-pulse' />
           <Link href='tel:+14385432259' className='text-lg md:text-2xl'>+1(438)543-2259 </Link>
         </div>
 
         <div className='flex items-center justify-center space-x-2 md:space-x-5'>
-          <EnvelopeIcon className='text-[#8b9d63] h-5 w-5 md:h-7 md:w-7 animate-pulse' />
+          <EnvelopeIcon className='text-[#ffbd59] h-5 w-5 md:h-7 md:w-7 animate-pulse' />
           <Link href='mailto:hey@cedric-compagnon.com?subject=Hi from your website' className='text-lg md:text-2xl'>hey@cedric-compagnon.com</Link>
         </div>
       </div>

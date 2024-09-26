@@ -8,31 +8,12 @@ import Projects from '@/components/Projects'
 import ContactMe from '@/components/ContactMe'
 import profilePic from '../public/cedric.webp'
 import Link from 'next/link'
-import Script from 'next/script'
-
 
 export default function Home() {
   return (
     <><div className="container">
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-TS6LLE8BY1" />
-      <Script id="google-analytics">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'G-TS6LLE8BY1');
-        `}
-      </Script>
-        <Script id="clarity">
-        {`(function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-          })(window, document, "clarity", "script", "j8gmu1wdo9");
-          `}
-        </Script>
-    </div><div className='bg-neutral-900 text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8b9d63]/80'>
+      
+    </div><div className='bg-neutral-900 text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#ffbd59]/80'>
         <Header />
 
         <section id='hero' className='snap-center'>

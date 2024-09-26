@@ -23,11 +23,10 @@ export default function About({}: Props) {
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>Background
              </h4>
-             <p className='text-md'>I have 14 years of IT experience in the crisis and emergency incident management industry 🛡️
+             <p className='text-md'>I have 14 years of IT experience in the telecommunications and technology sectors, both in B2C and B2B.
             <br></br><br></br>
             I help companies identify a relevant problem in order to develop the best solution, and I help my community increase their product skills through mentoring, training.
-            <br></br><br></br>
-            📊 Data analysis is a field I&apos;m passionate about and I&apos;m developing projects on the side. </p>
+            <br></br><br></br></p>
         </div>
     </motion.div>
   )
