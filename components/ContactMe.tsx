@@ -38,7 +38,7 @@ export default function ContactMe({}: Props) {
       <div className='space-y-10'>
         <div className='flex items-center justify-center space-x-2 md:space-x-5'>
           <PhoneIcon className='text-[#ffbd59] h-5 w-5 md:h-7 md:w-7 animate-pulse' />
-          <Link href='tel:+14385432259' className='text-lg md:text-2xl'>+1(438)543-2259 </Link>
+          <Link href='tel:+14385432259' className='text-lg md:text-2xl'>+1(438)xxx-xxxx </Link>
         </div>
 
         <div className='flex items-center justify-center space-x-2 md:space-x-5'>
